@@ -5,7 +5,7 @@ import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
+import {slideIn} from "../utils/motion";
 
 const Contact = () => {
   const formRef = useRef();
@@ -134,3 +134,5 @@ const Contact = () => {
 };
 
 export default SectionWrapper(Contact, "contact");
+
+
